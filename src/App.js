@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './ga.png';
 
 import Account from './Account';
+import Account2 from './Account2';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
           <div id="title">Bank of GA</div>
         </div>
         <Account name="Checking" />
+        <Account2 name="Savings" />
         <div className="clear"></div>
       </div>
     );
